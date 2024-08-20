@@ -1,15 +1,30 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
-  "description": "",
+  "name": "makima-anticrash",
+  "version": "1.0.3",
+  "description": "A powerful anti-crash system for Discord bots, inspired by Makima from Chainsaw Man.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests specified\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "discord",
+    "bot",
+    "anticrash",
+    "error",
+    "logging",
+    "chainsaw-man",
+    "makima"
+  ],
+  "author": "Bre4d77",
+  "license": "MIT",
   "dependencies": {
-    "@types/node": "^18.0.6"
+    "discord.js": "^14.0.0",
+    "chalk": "^4.1.2"
+  },
+  "peerDependencies": {
+    "discord.js": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
